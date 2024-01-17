@@ -42,11 +42,15 @@
  }
 
  .menu-bar {
-     width: 50%;
      display: flex;
      justify-content: space-between;
      align-items: center;
      padding-left: 100px;
+     list-style: none;
+     gap: 60px;
+     margin-top: 35px;
+
+
  }
 
  .menu-bar a {
@@ -55,7 +59,10 @@
      text-align: center;
      font-size: 15px;
      font-weight: 400;
+ }
 
+ .menu-bar a:hover {
+     color: #FF5400;
  }
 
  .banner-container {
@@ -90,40 +97,52 @@
      line-height: 26px;
  }
 
- .input-work {
-     display: flex;
-     justify-content: center;
-     margin-top: 25px;
-     gap: 24px;
-     max-width: 720px;
-     min-height: 80px;
-     margin: 0 auto;
-     margin-top: 40px;
-     align-items: center;
+ .banner-form-part {
+     border-radius: 8px;
      background: rgba(255, 255, 255, 0.30);
-     border-radius: 10px;
+     margin: 0px 180px;
+     padding: 16px;
+     margin-top: 50px;
  }
 
- .input-work input {
-     width: 150px;
-     height: 45px
+ .form-part {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 24px;
  }
 
- .input-work input {
-     border: none;
-     border-radius: 5px;
-     padding-left: 15px;
-     color: rgba(19, 19, 24, 0.50);
-     font-size: 13px;
-     font-weight: 400;
+ .form-part input {
+     width: 174px;
+     height: 52px;
+     border-radius: 8px;
+     background: #FFF;
+     padding-left: 24px;
+     border: 0;
 
  }
 
- .input-work :last-child {
+ .form-part select {
+     width: 174px;
+     height: 52px;
+     border-radius: 8px;
+     background: #FFF;
+     padding: 0px 24px;
+     border: 0;
+ }
+
+ /**btn  deaign code*/
+ .primary-btn {
+     width: 450px;
+     padding: 16px 30px;
+     color: #FFF;
+     text-align: center;
+     font-size: 12px;
+     font-weight: 500;
      border-radius: 8px;
      background: #FF5400;
-     color: #FFF;
-     cursor: pointer;
+     border: 0;
+
  }
 
  .text-container {
@@ -192,6 +211,8 @@
 
  }
 
+
+
  .grid-container-list {
      width: 1150px;
      height: 800px;
@@ -200,33 +221,105 @@
  }
 
  .gridlayout {
-       display: flex;
-       justify-content: space-between;
-      
+     display: flex;
+     justify-content: space-between;
+
  }
- 
- .flex-item{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+
+ .flex-item {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
  }
- 
- .img-1, .img-2{
-    max-width: 550px;
-    height: 300px;
-   
+
+ .img-1,
+ .img-2 {
+     max-width: 550px;
+     height: 300px;
+
  }
- .destination{
-    display: block;
-    display: flex;
+
+ .destination-contentOne-container {
+     width: 1150px;
+     margin: 0 auto;
+     margin-top: 70px;
  }
- 
-    /* width: 550px;
-    height: 300px; */
-   
- 
-    
- 
+
+ .destination-contentOne {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 24px;
+
+ }
+
+ .item1 {
+     width: 573px;
+     height: 300px;
+
+ }
+
+ .item2 {
+     width: 573px;
+     height: 300px;
+
+ }
+
+ .item3 {
+     width: 374px;
+     height: 286px;
+
+
+ }
+
+ .item4 {
+     width: 474px;
+     height: 286px;
+
+
+
+ }
+
+ .item5 {
+     width: 274px;
+     height: 286px;
+
+
+
+ }
+
+ .item6 {
+
+     width: 473px;
+     height: 300px;
+
+
+ }
+
+ .item7 {
+     width: 673px;
+     height: 300px;
+ }
+
+ .location {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #FFF;
+     text-align: center;
+     font-family: Mulish;
+     font-size: 28px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     z-index: 5;
+     position: relative;
+     bottom: 175px;
+
+ }
+
+
+
 
  .gridlayout img {
      width: 100%;
@@ -244,13 +337,16 @@
      position: relative;
  }
 
- .img-item {}
+ .img-item {
+     height: 550px;
+ }
 
  .input-item {
      border: 2px solid #FF5400;
      width: 40%;
-     height: 420px;
+     min-height: 420px;
      border-radius: 15px;
+     padding-top: 30px;
 
 
  }
@@ -270,6 +366,47 @@
      line-height: 15px;
      margin-top: 10px;
      margin-left: 40px;
+ }
+
+ .saveup {
+
+     align-items: center;
+     width: 324px;
+     height: 120px;
+     transform: rotate(-19.628deg);
+     flex-shrink: 0;
+     border-radius: 16px;
+     background: #FF5400;
+     position: relative;
+     left: 68%;
+     bottom: 245px;
+     z-index: 10;
+ }
+
+ .link {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #FFF;
+     text-align: center;
+     font-family: Mulish;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     padding-top: 16px;
+ }
+
+ .save-title {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #FFF;
+     font-family: Mulish;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
  }
 
  .border-line {
@@ -411,7 +548,6 @@
      width: 1150px;
      margin: 0 auto;
      display: flex;
-     flex-direction: row;
      flex-wrap: wrap;
      align-content: center;
      gap: 20px;
@@ -472,4 +608,170 @@
      border-radius: 16px;
      border: 1px solid rgba(41, 206, 246, 0.20);
      background: rgba(41, 206, 246, 0.05);
+ }
+
+ .destination-title {
+     color: #131318;
+     text-align: center;
+     font-family: Mulish;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     padding-bottom: 24px;
+ }
+
+ .destination-describetion {
+     color: rgba(19, 19, 24, 0.70);
+     text-align: center;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     padding: 0px 270px;
+     padding-top: 24px;
+     padding-bottom: 48px;
+
+ }
+
+ .discount-section {
+     width: 1150px;
+     margin: 40px auto;
+ }
+
+ .discount-content {
+     padding-bottom: 100px;
+ }
+
+ .discount-content-card {
+     display: block;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ .discount-card1 {
+     width: 100%;
+     height: 500px;
+     border-radius: 16px;
+     background-image: url("../Images/Group\ 39.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     margin-bottom: 24px;
+
+ }
+
+ .discount-card2 {
+     width: 100%;
+     height: 500px;
+     border-radius: 16px;
+     background-image: url("../Images/Group\ 40.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     margin-bottom: 24px;
+
+ }
+
+ .discount-card3 {
+     width: 100%;
+     height: 500px;
+     border-radius: 16px;
+     background-image: url("../Images/Group\ 39.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     margin-bottom: 24px;
+
+ }
+
+ .count-card {
+     display: block;
+     width: 579px;
+     height: 389px;
+     float: right;
+     margin: 56px;
+     border-radius: 16px;
+     border: 2px solid #FFF;
+     background: rgba(255, 255, 255, 0.80);
+     backdrop-filter: blur(2.5px);
+     padding: 0px 50px;
+
+ }
+
+ .count-list {
+     padding-top: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-right: 140px;
+     padding-bottom: 24px;
+ }
+
+ .count-list li {
+     color: #5A5A5D;
+     font-family: Mulish;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     list-style: none;
+
+ }
+
+ .count-list li i {
+     color: #FF5400;
+
+ }
+
+ .discount-title {
+     color: #131318;
+     font-family: Mulish;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     text-align: left;
+     padding-bottom: 16px;
+
+ }
+
+ .discount-describe {
+     width: 452px;
+     color: #5A5A5D;
+     font-family: Mulish;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px;
+     /* 162.5% */
+     padding-bottom: 16px;
+ }
+
+ .price {
+     color: #FF5400;
+     font-family: Mulish;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     padding-bottom: 24px;
+ }
+
+ .book-now {
+     display: block;
+     align-items: center;
+     justify-content: flex-start;
+     margin-top: 24px;
+ }
+
+ #count-card2 {
+     float: left;
+ }
+
+ .btn-diccount {
+     padding-top: 24px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
  }

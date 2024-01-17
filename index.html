@@ -21,13 +21,19 @@
                 </div>
                 <h1>Global <span class="span">Tour</span></h1>
             </div>
-            <div class="menu-bar">
-                <a href="">Home</a>
-                <a href="">Packages</a>
-                <a href="">Testimonial</a>
-                <a href="">Blog</a>
-                <a href="">Contact</a>
+
+            <div>
+                <ul class="menu-bar">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li> <a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
             </div>
+
+
+
         </nav>
     </header>
     <main>
@@ -40,11 +46,26 @@
                     own
                     backyard</p>
             </div>
-            <div class="input-work">
-                <input type="text" placeholder="Where go">
-                <input type="text" placeholder="When">
-                <input type="text" placeholder="Select Type">
-                <input type="submit" value="Find Now">
+            <div class="banner-form-part">
+                <form class="form-part" action="">
+                    <input type="text" name="placename" placeholder="Where we go"><br>
+                    <select name="when" id="when">
+                        <option value="o">When</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="bangladesh">Srilank</option>
+                        <option value="bangladesh">Maldives</option>
+                        <option value="bangladesh">North America</option>
+                    </select><br>
+                    <select name="selectType" id="when">
+                        <option value="o">Select Type</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="bangladesh">Srilank</option>
+                        <option value="bangladesh">Maldives</option>
+                        <option value="bangladesh">North America</option>
+                    </select><br>
+                    <button type="submit" class="primary-btn"><i class="fa-solid fa-magnifying-glass"></i> Find
+                        Now</button>
+                </form>
             </div>
         </section>
         <section>
@@ -79,38 +100,49 @@
                     culinary scene, eclectic shops.</p>
             </div>
         </section>
-        <!-- <section class="grid-container-list">
-            
-            <div class="gridlayout">
-                
-                    <div>
-                        <img class="img-1" src="Images/Rectangle 5.png" alt="">
-                        <h1 class="location"> Maldive</h1>
-                    </div>
-                    <div>
-                        <img class="img-2" src="Images/Rectangle 8 (1).png" alt="">
-                        <h1 class="location"> Kashmir</h1>
-                    </div>
-                   <section>
-                    <div class="destination">
-                        <div class="">
-                            <img class="img-2" src="Images/Rectangle 6 (1).png" alt="">
-                            <h1 class="location"> Kashmir</h1>
-                        </div>
-                        <div>
-                            <img class="img-2" src="Images/Rectangle 7 (1).png" alt="">
-                            <h1 class="location"> Kashmir</h1>
-                        </div>
-                        <div>
-                            <img class="img-2" src="Images/Rectangle 9 (1).png" alt="">
-                            <h1 class="location"> Kashmir</h1>
-                        </div>
-                    </div>
-                   </section>
-               
-            </div>
 
-        </section> -->
+        <section class="destination-contentOne-container">
+            <div class="destination-contentOne">
+                <div>
+                    <img class="item1" src="Images/Rectangle 5.png" alt="">
+                    <h6 class="location">Maldives</h6>
+                </div>
+                <div>
+                    <img class="item2" src="Images/Rectangle 8 (1).png" alt="">
+                    <h6 class="location">Indonesia</h6>
+                </div>
+
+            </div>
+            <div class="destination-contentOne">
+                <div>
+                    <img class="item3" src="Images/Rectangle 6.png" alt="">
+                    <h6 class="location">Srilanka</h6>
+
+                </div>
+                <div>
+                    <img class="item4" src="Images/Rectangle 7.png" alt="">
+                    <h6 class="location">North America</h6>
+
+                </div>
+                <div>
+                    <img class="item5" src="Images/Rectangle 9.png" alt="">
+                    <h6 class="location">Kashmir</h6>
+                </div>
+
+            </div>
+            <div class="destination-contentOne">
+                <div>
+                    <img class="item6" src="Images/Rectangle 11.png" alt="">
+                    <h6 class="location">Bangladesh</h6>
+                </div>
+                <div>
+                    <img class="item7" src="Images/Rectangle 10.png" alt="">
+                    <h6 class="location">Bandarban</h6>
+                </div>
+
+            </div>
+        </section>
+
         <section class="text-container-meddle">
             <div class="text-item-sacond">
                 <h1>Why Choose Us</h1>
@@ -140,6 +172,79 @@
                     securing the best available price for your accommodation. </p>
             </div>
         </section>
+        <div class="discount-section">
+            <div class="container">
+                <div class="discount-content">
+                    <div class="destionation-brand">
+                        <h3 class="destination-title">
+                            Deals &amp; Discounts
+                        </h3>
+                        <p class="destination-describetion">
+                            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
+                            dictumst nec nibh pellentesque.
+                        </p>
+                    </div>
+                    <div class="discount-content-card">
+                        <div class="discount-card1">
+                            <div class="count-card">
+                                <ul class="count-list">
+                                    <li><i class="fa-solid fa-clock"></i>7 Day / 6 Night</li>
+                                    <li><i class="fa-solid fa-users-line"></i>Max : 10</li>
+                                    <li> <i class="fa-solid fa-location-dot"></i>Malaysia</li>
+                                </ul>
+                                <span class="discount-title"> Tour To Satorini</span>
+                                <p class="discount-describe">Santorini, a mesmerizing gem nestled in the Aegean Sea, is
+                                    renowned for its breathtaking landscapes and unique architecture. The island's
+                                    iconic white-washed buildings with cobalt blue domes cling to the cliffs.</p>
+                                <span class="price">Price: $1300-$1500</span>
+                                <button class="primary-btn book-now">Book Now</button>
+                            </div>
+
+                        </div>
+                        <div class="discount-card2">
+                            <div class="count-card" id="count-card2">
+                                <ul class="count-list">
+                                    <li><i class="fa-solid fa-clock"></i>7 Day / 6 Night</li>
+                                    <li><i class="fa-solid fa-users-line"></i>Max : 10</li>
+                                    <li> <i class="fa-solid fa-location-dot"></i>Malaysia</li>
+                                </ul>
+                                <span class="discount-title"> Tour To Satorini</span>
+                                <p class="discount-describe">Santorini, a mesmerizing gem nestled in the Aegean Sea, is
+                                    renowned for its breathtaking landscapes and unique architecture. The island's
+                                    iconic white-washed buildings with cobalt blue domes cling to the cliffs.</p>
+                                <span class="price">Price: $1300-$1500</span>
+                                <button class="primary-btn book-now">Book Now</button>
+                            </div>
+
+
+                        </div>
+                        <div class="discount-card3">
+                            <div class="count-card">
+                                <ul class="count-list">
+                                    <li> <i class="fa-solid fa-clock"></i>7 Day / 6 Night</li>
+                                    <li> <i class="fa-solid fa-users-line"></i>Max : 10</li>
+                                    <li> <i class="fa-solid fa-location-dot"></i>Malaysia</li>
+                                </ul>
+                                <span class="discount-title"> Tour To Satorini</span>
+                                <p class="discount-describe">Santorini, a mesmerizing gem nestled in the Aegean Sea, is
+                                    renowned for its breathtaking landscapes and unique architecture. The island's
+                                    iconic white-washed buildings with cobalt blue domes cling to the cliffs.</p>
+                                <span class="price">Price: $1300-$1500</span>
+                                <button class="primary-btn book-now">Book Now</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="btn-diccount">
+                        <a href="" class="primary-btn-tour btn-discount">See All Packages</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
 
         <section class="input-item-img">
             <div class="input-item">
@@ -154,12 +259,10 @@
                 <img src="Images/Rectangle 8 (1).png" alt="">
             </div>
         </section>
-        <section>
-            <div class="transform">
-                <p>Travel.com</p>
-                <h3>Save up to 70%</h3>
-            </div>
-        </section>
+        <div class="saveup ">
+            <a class="link" href="">Travel.com</a>
+            <h5 class="save-title">Save up to 70%</h5>
+        </div>
     </main>
     <footer>
         <section class="footer-container">

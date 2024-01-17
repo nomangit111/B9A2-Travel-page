@@ -1,15 +1,135 @@
 @media screen and (max-width: 600px) {
-    nav{
+    nav {
         flex-direction: column;
-        align-items: center;
+        /* padding-left: 40px; */
     }
-    .menu-bar{
+
+    .menu-bar {
         flex-direction: column;
-       padding-right: 100px;
-       gap: 10px;
+        margin: 0 90px;
     }
-    .input-work{
+
+    .logo-container {
+        width: 100%;
+        margin: 0 140px;
+        padding-left: 100px;
+    }
+
+    .input-work {
         flex-direction: column;
+    }
+
+    .banner-container {
+        height: 880px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .input-work {
+        flex-direction: column;
+        width: 500px;
+        height: 300px;
+
+    }
+    .form-part{
+        flex-direction: column;
+        
+    }
+    .form-part input{
+        width: 430px;
+        
+    }
+    #when{
+        width: 430px;
+    }
+    .banner-form-part{
+        width: 500px;
+        margin: 0 20px;
+        margin-top: 40px;
+        min-height: 300px;
+        
+    }
+    .input-work input {
+        width: 450px;
+        height: 45px
+        
+    }
+
+    .text-container {
+        flex-direction: column;
+        margin: 10px;
+
+    }
+
+    .grid-container {
+        margin: 10px 25px;
+
+    }
+
+    .text-item p {
+        width: 100%;
+
+
+        padding-right: 400px;
+    }
+
+    .text-container-meddle {
+        width: 350px;
+
+        margin-right: 150px;
+
+    }
+    .destination-contentOne-container{
+        flex-direction: column;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 550px;
+
+        margin: 30px 260px;
+
+
+    }
+
+    
+
+    .input-item-img {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 80px;
+
+    }
+
+    .img-item img {
+        width: 500px;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .footer-bar {
+        flex-direction: column;
+        max-width: 400px;
+        min-height: 100px;
+    }
+    .destination-contentOne, .destination-contentOne, .destination-contentOne{
+        flex-direction: column;
+
+    }
+    .destination-contentOne>div img{
+       max-width: 100%;
+        height: 400px;
+        margin-right: 500px;
        
+ 
+    }  
+    .card-1, .card-1{
+        width: 550px;
+        margin-left: 1000px;
     }
-}
+    
+
+}            
+               
+                
